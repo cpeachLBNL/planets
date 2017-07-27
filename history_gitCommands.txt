@@ -1,0 +1,375 @@
+    1  cat ~/.ssh/id_rsa.pub
+    2  ssh-keygen -t rsa -C "GitLab" -b 4096
+    3  pbcopy < ~/.ssh/id_rsa.pub
+    4  /Users/cpeach/anaconda/bin/jupyter_mac.command ; exit;
+    5  python3
+    6  python
+    7  git
+    8  git --version
+    9  nano --version
+   10  nano
+   11  python2
+   12  python3
+   13  python
+   14  python3
+   15  bash Anaconda3
+   16  bash Anaconda3-
+   17  Anaconda3
+   18  anaconda3
+   19  python --version
+   20  python --version
+   21  jupyter notebook
+   22  bash Anaconda3-4.4.0-MacOSX-x86_64.sh
+   23  cd /Users/cpeach/Downloads
+   24  ls
+   25  bash Anaconda3-4.4.0-MacOSX-x86_64.sh
+   26  cd ..
+   27  ls
+   28  python --version
+   29  nano --version
+   30  python3
+   31  jupyter notebook
+   32  cd
+   33  cd Desktop/python-novice-inflammation/data
+   34  ls
+   35  jupyter notebook
+   36  whoami
+   37  pwd
+   38  ls
+   39  ls -F
+   40  ls --help
+   41  ls --help
+   42  ls -help
+   43  ls --help
+   44  ls --h
+   45  man ls
+   46  ls --classify
+   47  ls --F
+   48  ls -F
+   49  man ls
+   50  ls -F Desktop
+   51  /Users/cpeach /Users/cpeach ls -f Desktop/python-novice-inflammation/
+   52  /Users/cpeach /Users/cpeach ls -f Desktop/python-novice-inflammation/
+   53  /Users/cpeach /Users/cpeach ls -F  Desktop/python-novice-inflammation/
+   54  /Users/cpeach /Users/cpeach ls -F  Desktop/python-novice-inflammation
+   55  ls -F desktop
+   56  ls -F desktop/python-novice-inflammation/
+   57  cd Desktop
+   58  pwd
+   59  cd data-shell
+   60  ls
+   61  cd data-shell
+   62  ls
+   63  cd data-shell
+   64  ls
+   65  ls -F -a
+   66  cd ./
+   67  ls
+   68  pwd
+   69  cd .
+   70  pwd
+   71  cd ..
+   72  pwd
+   73  ls
+   74  cd data-shell
+   75  ls
+   76   cd ..
+   77  cd ..
+   78  ls
+   79  cd Desktop/data-shell/data
+   80  ls
+   81  pwd
+   82  pwd
+   83  cd ../
+   84  ls
+   85  pwd
+   86  cd ..
+   87  ls
+   88  pwd
+   89  cd /
+   90  ls
+   91  cd /Users/cpeach/Desktop/data-shell
+   92  ls
+   93  cd ~
+   94  ls
+   95  pwd
+   96  cd ~/Desktop/shell-data
+   97  cd ~/Desktop/data-shell
+   98  ls
+   99  history
+  100  ls -F
+  101  psd
+  102  pwd
+  103  mkdir thesis
+  104  ls
+  105  ls -F
+  106  cd thesis
+  107  ls
+  108  pwd
+  109  nano draft.txt
+  110  ls
+  111  nano draft.txt
+  112  cat draft.txt
+  113  less draft.txt
+  114  rm draft.txt
+  115  ls
+  116  pwd
+  117  touch draft.txt
+  118  ls
+  119  ls -F
+  120  cat draft.txt
+  121  ls -a
+  122  ls -A
+  123  ls -m
+  124  ls -M
+  125  ls -T
+  126  cd ..
+  127  ls
+  128  pwwd
+  129  pwd
+  130  rm -r thesis
+  131  ls
+  132  mkdir thesis
+  133  ls
+  134  rm thesis
+  135  ls
+  136  rmdir thesis
+  137  ls
+  138  ls
+  139  touch thesis/draft.txt
+  140  mkdir thesis
+  141  touch thesis/draft.txt
+  142  ls
+  143  ls thesis
+  144  mv thesis/draft.txt thesis/20170726_draft.txt
+  145  ls thesis
+  146  mv thesis/20170726_draft.txt thesis/20170726_draft.txt 
+  147  ls thesis
+  148  mv thesis/20170726_draft.txt .
+  149  ls
+  150  ls thesis
+  151  mkdir backup
+  152  ls
+  153  cp 20170726_draft.txt backup
+  154  ls backup
+  155  ls
+  156  pwd
+  157  cd 
+  158  pwd
+  159  cd Desktop
+  160  ls
+  161  cd python-novice-inflammation/
+  162  ls
+  163  cd data
+  164  ls
+  165  cd
+  166  cd Desktop
+  167  ls
+  168  ls
+  169  head Alaska.csv
+  170  head Alaska.csv
+  171  wc *.csv
+  172  sc A*.csv
+  173  wc A*.csv
+  174  wc ??????.csv
+  175  wc -l *.csv
+  176  wc -l *.csv > lengths.txt
+  177  ls
+  178  cat lengths.txt
+  179  cp lengths.txt temp.txt
+  180  ls
+  181  wc -l *.csv >> temp.txt
+  182  cat temp.txt
+  183  ls *.txt
+  184  ls t*.txt
+  185  rm t*.txt
+  186  ls
+  187  sort -n lengths.txt
+  188  sort -n lengths.txt > lengths-sorted.txt
+  189  ls
+  190  cat lengths-sorted.txt 
+  191  head -n 1 lengths-sorted.txt
+  192  wc -l *.csv | sort -n
+  193  wc -l *.csv | sort -n | head -n 1
+  194  cd Desktop
+  195  ls
+  196  cd data-shell/data
+  197  ls
+  198  nano salmon.txt
+  199  uniq salmon.txt
+  200  cat salmon.txt
+  201  sort salmon.txt
+  202  sort salmon.txt | uniq
+  203  cat salmon.txt
+  204  sort salmon.txt | uniq
+  205  man uniq
+  206  man sort
+  207  info sort
+  208  sort salmon.txt | uniq
+  209  for filename in Alaska.csv Canada.csv; do  cp $filename original-$filename.csv; done
+  210  ls
+  211  cd ..
+  212  ls
+  213  pwd
+  214  cd ..
+  215  ls
+  216  for filename in Alaska.csv Canada.csv; do  cp $filename original-$filename.csv; done
+  217  ls
+  218  for filename in *.csv; do cp $filename /backups/original-$filename; done
+  219  md backups
+  220  mk backups
+  221  mkdir backups
+  222  ls
+  223  for filename in *.csv; do cp $filename /backups/original-$filename; done 
+  224  rm original-*
+  225  ls
+  226  cd backups
+  227  ls
+  228  pwd
+  229  cd ..
+  230  ls
+  231  ls backups
+  232  ls
+  233  for filename in *.csv; do cp $filename /backups/original-$filename; done 
+  234  for filename in *.csv; do cp $filename ./backups/original-$filename; done 
+  235  for filename in *.csv; do cp $filename ./backups/original-$filename; done 
+  236  ls
+  237  ls backups
+  238  tail -n +2 Alaska.csv | cut -d "," -f 8
+  239  tail -n +2 Alaska.csv | cut -d "," -f 8 | sort -u
+  240  tail -n +2 Alaska.csv | cut -d "," -f 8 | sort -c
+  241  tail -n +2 Alaska.csv | cut -d "," -f 8 | sort | uniq -c
+  242  tail -n +2 Alaska.csv | cut -d "," -f 8 | sort | uniq -c
+  243  history
+  244  history > history_July26_2017_morning.txt
+  245  ls
+  246  cd python-novice-inflammation/
+  247  ls
+  248  pwd
+  249  nano hello.py
+  250  cat hello.py
+  251  python -v
+  252  python
+  253  ls
+  254  ls -F
+  255  mkdir notebook
+  256  ls -F
+  257  cd notebook
+  258  ls
+  259  jupyter notebook
+  260  jupyter notebook
+  261  jupyter notebook
+  262  cd /Users/cpeach/Google\ Drive/Personal/Learning/Python_Training/SoftwareCarpentry 
+  263  ls
+  264  git
+  265  git config --global user.name "Chris Peach"
+  266  git config --list
+  267  git config --global user.email "cpeach@lbl.gov"
+  268  git config --global color.ui=auto
+  269  git config --list
+  270  git config --list
+  271  mkdir planets
+  272  cd planets
+  273  ls
+  274  git init
+  275  ls
+  276  ls -a
+  277  git status
+  278  mkdir moons
+  279  ls
+  280  cd moons
+  281  ls
+  282  ls -a
+  283  rm -r moons
+  284  ls
+  285  cd ..
+  286  ls
+  287  rm -r moons
+  288  ls
+  289  ls -a
+  290  nano mars.txt
+  291  cat mars.txt
+  292  git status
+  293  git add mars.txt
+  294  git status
+  295  git add Icon\r
+  296  ls
+  297  git add Icon?
+  298  git status
+  299  ls
+  300  git commit -m "Start notes on Mars as a base"
+  301  git status
+  302  git log
+  303  git log
+  304  git status
+  305  ls .git
+  306  ls -f .git
+  307  nano mars.txt
+  308  cat mars.txt
+  309  git diff
+  310  git commit -m "Added concerns about effects of Mars' moon on Wolfman."
+  311  git diff
+  312  git status
+  313  git commit mars.txt -m "Added concerns about effects of Mars' moon on Wolfman."
+  314  nano mars.txt
+  315  git diff
+  316  git add mars.txt
+  317  git status
+  318  git diff
+  319  gi diff --staged
+  320  gi diff --s
+  321  git diff --s
+  322  git diff --staged
+  323  git commit -m "Discuss concerns about Mar's climate for Mummy."
+  324  git log
+  325  git log -1
+  326  git log -2
+  327  git log --oneline
+  328  mkdir moons
+  329  git status
+  330  git add moons
+  331  git status
+  332  ls
+  333  nano mars.txt
+  334  nano venus.txt
+  335  git add *
+  336  ls
+  337  git status
+  338  git commit -m "modified mars.txt and added venus.txt"
+  339  git log
+  340  git log --oneline
+  341  git status
+  342  git diff
+  343  nano mars.txt
+  344  git diff
+  345  git diff
+  346  git diff HEAD
+  347  git diff HEAD mars.txt
+  348  git diff HEAD~1 mars.txt
+  349  git show HEAD~1 mars.txt
+  350  git show HEAD~1 mars.txt
+  351  git show HEAD venus.txt
+  352  nano mars.txt
+  353  git checkout HEAD mars.txt
+  354  cat mars.txt 
+  355  git log
+  356  git checkout c282cb3ccfcc022cf5dbf6568543a85dd03c3a61
+  357  nano mars.txt
+  358  ls
+  359  git log
+  360  git checkout master
+  361  git checkout c282cb3ccfcc022cf5dbf6568543a85dd03c3a61 mars.txt
+  362  ls
+  363  git log
+  364  ls
+  365  rm mars.txt
+  366  ls
+  367  git checkout c282cb3ccfcc022cf5dbf6568543a85dd03c3a61 mars.txt
+  368  ls
+  369  cat mars.txt
+  370  history > git.commands.bash.txt
+  371  git diff HEAD~2 mars.txt
+  372  git diff HEAD~1 mars.txt
+  373  git show HEAD mars.txt
+  374  git diff HEAD mars.txt
+  375  history > history_gitCommands.txt
