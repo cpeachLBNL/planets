@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 Reflections and shadows  on the Red Planet
  ===========
 Cold, foggy, and dry, but everything is my favorite color.
 The two (2) moons may be a problem for Wolfman.
 ===========
 
+=======
+Reflections on the Red Planet
+Section 1 
+Cold and dry, but everything is my favorite color.
+Section 2.
+The two moons may be a problem for Wolfman.
+Question: Does life in Mars exist?
+>>>>>>> c2783480b254ae7d636d1be93482653f888af7a9
